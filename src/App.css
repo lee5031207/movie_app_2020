@@ -1,0 +1,18 @@
+body{
+    margin : 0px;
+    background-color:rgb(194, 213, 229);
+    color:rgb(39, 36, 36);
+
+}
+.loader{
+    text-align: center;
+    padding-top:320px;
+    background-color:rgb(194, 213, 229);
+    padding-bottom:400px;
+}
+.loader_text{
+    font-weight: bold;
+    font-size: 100px;
+    font-family: 'Russo One', sans-serif;
+    color :rgb(39, 36, 36);
+}

@@ -1,0 +1,42 @@
+
+.movie{
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); /*그림자 주는 효과 */
+    display:inline-block;
+    background-color: white;
+    margin-top:100px;
+    margin-left:3%;
+    margin-right:3%;
+}
+img{
+    max-width: 130px;
+    display :inline-block;
+    position: relative; /*박스에서 이미지를 위로 띄우는*/
+    top:-50px;/*박스에서 이미지를 위로 띄우는*/
+    box-shadow: 0 30px 60px rgba(50, 50, 93, 0.25), 0 1px 3px rgba(0, 0, 0, 0.25); /*그림자 주는 효과 */
+}
+img:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+}
+.movie_data{
+    display:inline-block; 
+    margin-left:10%;
+    margin-top:5%;
+}
+.movie_title{
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+}
+.movie_year{
+    font-size: 12px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.genre{
+    display: inline-block;
+    font-size:12px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.movie_summary{
+    margin-top:-20px;
+    font-family: 'Fjalla One', sans-serif;
+}
